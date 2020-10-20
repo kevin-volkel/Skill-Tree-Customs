@@ -6,3 +6,11 @@ html{
     --border: solid #a9a9a9 1px;
     --text-color: #a9a9a9
 }
+
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+.tier {
+    color: var(--text-color);
+}
