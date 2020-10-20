@@ -26,3 +26,11 @@ nav a:link{
     color:var(--text-color);
     text-decoration: none;
 }
+
+img.logo {
+    color: var(--text-color);
+}
+
+p.description {
+    color: var(--text-color);
+}
