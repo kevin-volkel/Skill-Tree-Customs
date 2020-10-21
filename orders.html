@@ -35,29 +35,115 @@
             </li>
         </ul>
     </nav>
-    <section class="tier">
-        <fieldset>
-            <legend>Choose Your PC Tier</legend>
-            <ul>
-                <li>
-                    <input type="radio" id="pc.BASIC" name="pc">
-                    <label for="pc_1">BASIC</label>
-                </li>
-                <li>
-                    <input type="radio" id="pc.PREMIUM" name="pc">
-                    <label for="pc_2">PREMIUM</label>
-                </li>
-                <li>
-                    <input type="radio" id="pc.PRO" name="pc">
-                    <label for="pc_3">PRO</label>
-                </li>
-                <li>
-                    <input type="radio" id="pc.ULTRA" name="pc">
-                    <label for="pc_4">ULTRA</label>
-                </li>
-            </ul>
-        </fieldset>
-    </section>
+
+    <form action="orders.json" method="POST">
+        <section class="tier">
+            <fieldset>
+                <legend>Choose Your PC Tier</legend>
+                <ul>
+                    <li>
+                        <input type="radio" id="pc.BASIC" name="pc">
+                        <label for="pc_1">BASIC</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="pc.PREMIUM" name="pc">
+                        <label for="pc_2">PREMIUM</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="pc.PRO" name="pc">
+                        <label for="pc_3">PRO</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="pc.ULTRA" name="pc">
+                        <label for="pc_4">ULTRA</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+
+        <section class="peripheral">
+            <fieldset>
+                <legend>Choose Your Peripherals (OPTIONAL)</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="peripheral.Keyboard" name="peripheral">
+                        <label for="peripheral_1">Keyboard</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="peripheral.Mouse" name="peripheral">
+                        <label for="peripheral_2">Mouse</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="peripheral.Monitor" name="peripheral">
+                        <label for="peripheral_3">Monitor</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="peripheral.Speakers" name="peripheral">
+                        <label for="peripheral_4">Speakers</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="peripheral.Headset" name="peripheral">
+                        <label for="peripheral_5">Headset</label>
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend>Customer Information</legend>
+                <ul>
+                    <li>
+                        <label for="user_1">First Name</label>
+                        <input type="text" id="user.firstName" name="user">
+                    </li>
+                    <li>
+                        <label for="user_1">Last Name </label>
+                        <input type="text" id="user.LastName" name="user">
+                    </li>
+                    <li>
+                        <label for="user_1">Address</label>
+                        <input type="text" id="user.Address" name="user">
+                    </li>
+                    <li>
+                        <label for="user_1">City</label>
+                        <input type="text" id="user.City" name="user">
+                    </li>
+                    <li>
+                        <label for="user_1">State</label>
+                        <input type="text" id="user.State" name="user">
+                    </li>
+                    <li>
+                        <label for="user_1">Zip Code</label>
+                        <input type="text" id="user.zipCode" name="user">
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend>Payment Information</legend>
+                <ul>
+                    <li>
+                        <label for="payment_1">Credit Card Number</label>
+                        <input type="text" id="payment.creditCard" name="payment">
+                    </li>
+                    <li>
+                        <label for="payment_1">Exipration Date</label>
+                        <input type="text" id="payment.expirationDate" name="payment">
+                    </li>
+                    <li>
+                        <label for="payment_1">Security Code</label>
+                        <input type="text" id="payment.securityCode" name="payment">
+                    </li>
+                </ul>
+            </fieldset>
+        </section>
+        <br>
+        <input class="submitButton" type="submit" value="Submit">
+
+    </form>
 
 </body>
 
