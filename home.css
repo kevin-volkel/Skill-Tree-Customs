@@ -11,6 +11,7 @@ html{
 
 * {
     font-family: 'Prompt', sans-serif;
+    color: var(--text-color)
 }
 
 /* Nav Bar */
@@ -55,10 +56,39 @@ nav input[type="search"]{
 }
 /* Content */
 
-img.logo {
-    color: var(--text-color);
+.logo {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
 }
 
-p.description {
+.description {
     color: var(--text-color);
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 50px;
+    align-content: center;
+    content: "";
+    background-color: var(--text-background);
+}
+.date{
+    order: 1;
+}
+.contact{
+    order: 2;
+}
+.credits{
+    order: 3;
 }
