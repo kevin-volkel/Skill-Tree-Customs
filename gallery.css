@@ -45,7 +45,7 @@ nav a:hover{
     color: var(--text-color);
     background-color: var(--base-color);
     border: none;
-    border-radius: 15%;
+    cursor: pointer;
 }
 nav input[type="search"]{
     color: var(--text-color);
@@ -59,8 +59,8 @@ nav input[type="search"]{
 .vidWrapper{
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
-
 /* Image Gallery */
 .gallery{
     columns: 5;
@@ -104,4 +104,27 @@ nav input[type="search"]{
 }
 .image{
     width: 15rem;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 50px;
+    align-content: center;
+    content: "";
+    background-color: var(--text-background);
+}
+.date{
+    order: 1;
+}
+.contact{
+    order: 2;
+}
+.credits{
+    order: 3;
 }
