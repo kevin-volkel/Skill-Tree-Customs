@@ -36,26 +36,30 @@
         </ul>
     </nav>
 
-    <form action="orders.json" method="POST">
+    <form action="index.html" method="POST">
         <section class="tier">
             <fieldset>
                 <legend>Choose Your PC Tier</legend>
                 <ul>
                     <li>
                         <input type="radio" id="pc.BASIC" name="pc">
-                        <label for="pc_1">BASIC</label>
+                        <label for="pc_1"><br>BASIC</label>
+                        <img src="media/testimage.jpg" alt="picture of a BASIC computer">
                     </li>
                     <li>
                         <input type="radio" id="pc.PREMIUM" name="pc">
-                        <label for="pc_2">PREMIUM</label>
+                        <label for="pc_2"><br>PREMIUM</label>
+                        <img src="media/testimage.jpg" alt="picture of a PREMIUM computer">
                     </li>
                     <li>
                         <input type="radio" id="pc.PRO" name="pc">
-                        <label for="pc_3">PRO</label>
+                        <label for="pc_3"><br>PRO</label>
+                        <img src="media/testimage.jpg" alt="picture of a PRO computer">
                     </li>
                     <li>
                         <input type="radio" id="pc.ULTRA" name="pc">
-                        <label for="pc_4">ULTRA</label>
+                        <label for="pc_4"><br>ULTRA</label>
+                        <img src="media/testimage.jpg" alt="picture of a ULTRA computer">
                     </li>
                 </ul>
             </fieldset>
@@ -89,7 +93,7 @@
             </fieldset>
         </section>
 
-        <section>
+        <section class="info">
             <fieldset>
                 <legend>Customer Information</legend>
                 <ul>
@@ -121,7 +125,7 @@
             </fieldset>
         </section>
 
-        <section>
+        <section class="payment">
             <fieldset>
                 <legend>Payment Information</legend>
                 <ul>
@@ -141,9 +145,11 @@
             </fieldset>
         </section>
         <br>
-        <input class="submitButton" type="submit" value="Submit">
-
+        <div class="buttonWrapper">
+            <input class="submitButton" type="submit" value="Submit">
+        </div>
     </form>
+
 
 </body>
 
