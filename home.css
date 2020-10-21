@@ -78,7 +78,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 99%;
-    height: 50px;
+    height: 40px;
     align-content: center;
     content: "";
     background-color: var(--text-background);
