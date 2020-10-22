@@ -12,6 +12,7 @@ html{
 
 * {
     font-family: 'Prompt', sans-serif;
+    color: var(--text-color);
 }
 
 /* Nav Bar */
