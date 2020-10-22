@@ -136,25 +136,3 @@ input[type="text"]{
     background-color: var(--base-color);
     color: var(--text-color)
 }
-
-/* Footer */
-footer{
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.7rem;
-    position: bottom;
-    width: 99%;
-    height: 50px;
-    align-content: center;
-    content: "";
-    background-color: var(--text-background);
-}
-.date{
-    order: 1;
-}
-.contact{
-    order: 2;
-}
-.credits{
-    order: 3;
-}
