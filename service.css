@@ -60,9 +60,10 @@ nav input[type="search"]{
 /* Footer */
 footer{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     font-size: 0.7rem;
-    position: absolute;
+    position: relative bottom;
     bottom: 0;
     width: 99%;
     height: 50px;
@@ -70,12 +71,12 @@ footer{
     content: "";
     background-color: var(--text-background);
 }
-.date{
+/* .date{
     order: 1;
 }
 .contact{
     order: 2;
 }
 .credits{
-    order: 3;
-}
+    order: 3; 
+} */
