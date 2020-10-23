@@ -14,7 +14,6 @@ html{
 }
 
 
-
 /* Nav Bar */
 nav{
     color: var(--text-color);
@@ -99,15 +98,14 @@ h2{
 /* Footer */
 footer{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     font-size: 0.7rem;
-    position: relative bottom;
+    position: absolute;
     bottom: 0;
     width: 99%;
     height: 50px;
+    padding: bottom;
     align-content: center;
-    content: "";
     background-color: var(--text-background);
 }
 /* .date{

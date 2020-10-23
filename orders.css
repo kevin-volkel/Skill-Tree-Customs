@@ -142,12 +142,11 @@ footer{
     display: flex;
     justify-content: space-between;
     font-size: 0.7rem;
-    position: relative bottom;
     bottom: 0;
     width: 99%;
     height: 50px;
+    padding: bottom;
     align-content: center;
-    content: "";
     background-color: var(--text-background);
 }
 .date{
@@ -155,6 +154,7 @@ footer{
 }
 .contact{
     order: 2;
+    text-align: center;
 }
 .credits{
     order: 3;
