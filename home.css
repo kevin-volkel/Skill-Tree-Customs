@@ -76,7 +76,6 @@ nav input[type="search"]{
 footer{
     display: flex;
     justify-content: space-between;
-    position: absolute;
     font-size: 0.7rem;
     bottom: 0;
     width: 99%;
@@ -84,13 +83,4 @@ footer{
     padding: bottom;
     align-content: center;
     background-color: var(--text-background);
-}
-.date{
-    order: 1;
-}
-.contact{
-    order: 2;
-}
-.credits{
-    order: 3;
 }
