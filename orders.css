@@ -77,6 +77,9 @@ section{
     width: 80%;
 }
 
+fieldset{
+    width: 100vw;
+}
 
 .tier ul{
     display: grid;
