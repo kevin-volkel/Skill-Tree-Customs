@@ -125,7 +125,7 @@ fieldset{
     box-sizing: border-box;
 
     /* Match form borders */
-    border: 1px solid #CCC;
+    border: 1px solid var(--text-color);
 }
 
 .buttonWrapper{
