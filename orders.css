@@ -70,7 +70,7 @@ ul{
 }
 
 section{
-    margin: 0 auto;
+    margin: 0 auto center;
     margin-bottom: 10px;
     width: 80%;
 }
