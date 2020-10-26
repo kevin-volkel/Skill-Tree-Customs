@@ -23,6 +23,8 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem;
 }
 nav ul li{
     font-size: 1.5rem;
@@ -74,21 +76,12 @@ nav input[type="search"]{
 footer{
     display: flex;
     justify-content: space-between;
-    position: absolute;
     font-size: 0.7rem;
+    position: absolute;
     bottom: 0;
     width: 99%;
     height: 50px;
     padding: bottom;
     align-content: center;
     background-color: var(--text-background);
-}
-.date{
-    order: 1;
-}
-.contact{
-    order: 2;
-}
-.credits{
-    order: 3;
 }

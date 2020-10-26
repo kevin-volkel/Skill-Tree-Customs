@@ -25,6 +25,8 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem;
 }
 nav ul li{
     font-size: 1.5rem;
@@ -57,8 +59,6 @@ nav input[type="search"]{
     border-radius: 15%;
 }
 /* Content */
-
-
 legend{
     text-align: center;
     border: solid var(--text-color);
@@ -75,6 +75,9 @@ section{
     width: 80%;
 }
 
+fieldset{
+    width: 100vw;
+}
 
 .tier ul{
     display: grid;
@@ -148,14 +151,4 @@ footer{
     padding: bottom;
     align-content: center;
     background-color: var(--text-background);
-}
-.date{
-    order: 1;
-}
-.contact{
-    order: 2;
-    text-align: center;
-}
-.credits{
-    order: 3;
 }
