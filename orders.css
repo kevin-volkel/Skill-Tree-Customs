@@ -15,7 +15,6 @@ html{
     font-family: 'Prompt', sans-serif;
     color: var(--text-color);
 }
-
 /* Nav Bar */
 nav{
     color: var(--text-color);
@@ -49,14 +48,13 @@ nav a:hover{
     color: var(--text-color);
     background-color: var(--base-color);
     border: none;
-    border-radius: 15%;
+    cursor: pointer;
 }
 nav input[type="search"]{
     color: var(--text-color);
     background-color: var(--base-color);
     border: none;
     color: var(--text-color);
-    border-radius: 15%;
 }
 /* Content */
 legend{

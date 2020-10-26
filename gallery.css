@@ -68,7 +68,6 @@ nav input[type="search"]{
     background-color: var(--base-color);
     border: none;
     color: var(--text-color);
-    border-radius: 15%;
 }
 
 /* Content */
