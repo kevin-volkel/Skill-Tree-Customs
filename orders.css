@@ -59,8 +59,6 @@ nav input[type="search"]{
     border-radius: 15%;
 }
 /* Content */
-
-
 legend{
     text-align: center;
     border: solid var(--text-color);
@@ -153,14 +151,4 @@ footer{
     padding: bottom;
     align-content: center;
     background-color: var(--text-background);
-}
-.date{
-    order: 1;
-}
-.contact{
-    order: 2;
-    text-align: center;
-}
-.credits{
-    order: 3;
 }

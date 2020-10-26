@@ -95,20 +95,10 @@ footer{
     display: flex;
     justify-content: space-between;
     font-size: 0.7rem;
-    position: relative;
     bottom: 0;
     width: 99%;
     height: 50px;
+    padding: bottom;
     align-content: center;
-    content: "";
     background-color: var(--text-background);
-}
-.date{
-    order: 1;
-}
-.contact{
-    order: 2;
-}
-.credits{
-    order: 3;
 }
