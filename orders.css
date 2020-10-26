@@ -138,7 +138,11 @@ fieldset{
     width: 100px;
 }
 
-input[type="text"]{
+.commentLabel{
+    position: relative;
+    bottom: 15%;
+}
+input[type="text"], textarea{
     background-color: var(--base-color);
     color: var(--text-color)
 }
